@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval((perv) => {
       (perv + 1) % images.length
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [images.length]);
